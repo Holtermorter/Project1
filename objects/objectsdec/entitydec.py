@@ -1,5 +1,4 @@
-from gameDatas.apart import *
-from objects.objectsclss.entityclss import EntityNPC
+from objects.objectsclss.entityclss import *
 import math
 
 jacob = EntityNPC("Jacob", "Human", math.inf, math.inf, math.inf, math.inf)
