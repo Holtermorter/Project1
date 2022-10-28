@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\gameDependencies",
     "\\objects",
     "\\objects\\objectsclss",
     "\\objects\\objectsdec"
   ],
-  "SelectedNode": "\\objects\\objectsdec\\entitydec.py",
+  "SelectedNode": "\\gameDependencies\\apart.py",
   "PreviewInSolutionExplorer": false
 }

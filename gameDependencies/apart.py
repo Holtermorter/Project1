@@ -1,5 +1,7 @@
-from gameDatas.objects import *
-from gameDatas.objects.objectsclss.entityclss import EntityNPC
+
+
+from objects.objectsclss.entityclss import EntityNPC
+from objects.objectsclss.swordclss import Sword
 
 
 def playerCreation():
@@ -19,6 +21,9 @@ def playerCreation():
         else:
             print("Raza incorrecta")
 
+
+javi = EntityNPC("j", "a", 2, 2, 2, 2,)
+ebano = Sword(30, "Hoja de ebano", 100)
 
 
 

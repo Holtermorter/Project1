@@ -1,9 +1,8 @@
-from objects.objectsclss.entityclss import *
 import math
+from gameDependencies.imports import *
+
 
 jacob = EntityNPC("Jacob", "Human", math.inf, math.inf, math.inf, math.inf)
-print(jacob.healht)
 
-
-
+daniel = EntityNPC("Daniel", "Human", math.inf, math.inf, math.inf, math.inf)
 
