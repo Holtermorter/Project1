@@ -1,7 +1,6 @@
+from gameDatas import *
 
-import imports as ext
-
-print(ext.sword.escalibur.name)
+print(jacob.magic)
 
 
 

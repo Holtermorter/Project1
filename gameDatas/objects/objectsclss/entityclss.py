@@ -15,11 +15,11 @@ class EntityNPC:
 
     def hit(self, _damage):
         self.healht -= _damage
-        Entity.check()
+        check()
 
     def heal(self, _ammount):
         self.healht += _ammount
-        Entity.check()
+        check()
 
     def check(self):
         if self.healht <= 0:
@@ -42,6 +42,9 @@ class EntityNPC:
         print("Magia:", self.magic)
         print("Inteligencia:", self.inteligence)
         print("\n______________________________________________________________\n")
+
+   
+
 
 
 
