@@ -1,4 +1,9 @@
-class Entity:
+# -*- coding: utf-8 *-*
+from os import name
+from turtle import stamp
+
+
+class EntityNPC:
     entityEstatus = True
     def __init__(self, _name, _raze, _health, _stamina, _magic, _inteligence):
         self.name = _name
@@ -27,5 +32,17 @@ class Entity:
 
         if self.magic <= 0:
             self.magic = 0
-            print("Sin mágia")
+            print("Sin magia")
+
+    def info(self):
+        print("\n--------------------------------------------------------------\n")
+        print("Datos de", self.name + ":")
+        print("Vida:", self.healht)
+        print("Stamina:", self.stamina)
+        print("Magia:", self.magic)
+        print("Inteligencia:", self.inteligence)
+        print("\n______________________________________________________________\n")
+
+
+
 
