@@ -3,9 +3,8 @@
     "",
     "\\gameDependencies",
     "\\objects",
-    "\\objects\\objectsclss",
-    "\\objects\\objectsdec"
+    "\\objects\\objectsclss"
   ],
-  "SelectedNode": "\\gameDependencies\\imports.py",
+  "SelectedNode": "\\main.py",
   "PreviewInSolutionExplorer": false
 }
