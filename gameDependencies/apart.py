@@ -1,8 +1,10 @@
 
 
 from objects.objectsclss.entityclss import EntityNPC
+from objects.objectsclss.foodsclss import Food
 from objects.objectsclss.swordclss import Sword
-
+inventoryFood = []
+inventory = {'Food': inventoryFood,}
 
 def playerCreation():
     name = input("Indique un nombre para su personaje: ")
@@ -22,8 +24,27 @@ def playerCreation():
             print("Raza incorrecta")
 
 
-javi = EntityNPC("j", "a", 2, 2, 2, 2,)
-ebano = Sword(30, "Hoja de ebano", 100)
+def eatHeal(food):
+    if food in inventory:
+        if food.status == True:
+            player.heal(food.satiety)
+            food.eaten = True
+            food.durability -= 1
+            food.change_status()
+        else:
+            print("You can't eat that!")
+            
+def addToInventory(item):
+    if item is Food:
+        inventoryFood.append(item)
+        inventory['Food'] = inventoryFood
+    elif item is Sword:
+        inventory.append(item)
+    else:
+        print("Error in inventoryADD")
+
+
+    
 
 
 
